@@ -15,7 +15,7 @@ int main(void)
     pnum = &num2; // get the address of num2
     ++*pnum;      // increment num2 indirectly
 
-    printf("num1 = %1d num2 = %1d *pnum = %1d *pnum + num2 = %1d\n", num1, num2, *pnum, *pnum + num2);
+    printf("num1 = %1ld num2 = %1ld *pnum = %1ld *pnum + num2 = %1ld\n", num1, num2, *pnum, *pnum + num2);
 
     return 0;
 }
